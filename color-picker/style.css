@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding-top: 31px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+}
+
+.hex {
+    font-family: Helvetica, sans-serif;
+}
+
+#colorSquare {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 3px solid black;
+    position: relative;
+}
+
+#colorSlider {
+    width: 200px;
+    margin-left: 17px;
+    margin-bottom: 12px;
+}
+
+#transparencySlider {
+    width: 200px;
+    margin-top: 10px;
+}
+
+#hexCode {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+.cursor {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border-radius: 91%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #ffffff;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
